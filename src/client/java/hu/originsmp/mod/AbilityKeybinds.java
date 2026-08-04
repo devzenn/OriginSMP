@@ -12,17 +12,19 @@ public static KeyMapping ability2;
 
     public static void register() {
 
-        ability1 = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "key.originsmp.ability1",
-                GLFW.GLFW_KEY_K,
-                "category.originsmp"
-        ));
+ability1 = KeyBindingHelper.registerKeyBinding(new KeyMapping(
+        "key.originsmp.ability1",
+        InputConstants.Type.KEYSYM,
+        GLFW.GLFW_KEY_K,
+        "category.originsmp"
+));
 
-        ability2 = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "key.originsmp.ability2",
-                GLFW.GLFW_KEY_G,
-                "category.originsmp"
-        ));
+ability2 = KeyBindingHelper.registerKeyBinding(new KeyMapping(
+        "key.originsmp.ability2",
+        InputConstants.Type.KEYSYM,
+        GLFW.GLFW_KEY_G,
+        "category.originsmp"
+));
 
     }
 }
