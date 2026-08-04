@@ -7,8 +7,8 @@ import org.lwjgl.glfw.GLFW;
 
 public class AbilityKeybinds {
 
-    public static KeyBinding ability1;
-    public static KeyBinding ability2;
+public static KeyMapping ability1;
+public static KeyMapping ability2;
 
     public static void register() {
 
