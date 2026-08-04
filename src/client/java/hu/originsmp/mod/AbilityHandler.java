@@ -8,18 +8,18 @@ public class AbilityHandler {
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
 
-            while (AbilityKeybinds.ability1.wasPressed()) {
+            while (AbilityKeybinds.ability1.consumeClick()) {
 
                 if (client.player != null) {
-                    client.getNetworkHandler().sendChatCommand("ability1");
+                    client.player.connection.sendCommand("ability1");
                 }
 
             }
 
-            while (AbilityKeybinds.ability2.wasPressed()) {
+            while (AbilityKeybinds.ability2.consumeClick()) {
 
                 if (client.player != null) {
-                    client.getNetworkHandler().sendChatCommand("ability2");
+                    client.player.connection.sendCommand("ability2");
                 }
 
             }
