@@ -3,9 +3,9 @@
 	"id": "originsmp",
 	"version": "${version}",
 	"name": "OriginSMP",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod, hogy be tudd Bindolni az ORIGINSMP-n az abilityket.",
 	"authors": [
-		"Me!"
+		"Zenxx"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
 			"hu.originsmp.mod.OriginSMP"
 		],
 		"client": [
-			"hu.originsmp.mod.OriginSMPClient"
+			"client": "hu.originsmp.mod.client.OriginSMPClient"
 		]
 	},
 	"mixins": [
