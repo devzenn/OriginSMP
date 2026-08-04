@@ -16,14 +16,14 @@ ability1 = KeyBindingHelper.registerKeyBinding(new KeyMapping(
         "key.originsmp.ability1",
         InputConstants.Type.KEYSYM,
         GLFW.GLFW_KEY_K,
-        "category.originsmp"
+        KeyMapping.Category.MISC
 ));
 
 ability2 = KeyBindingHelper.registerKeyBinding(new KeyMapping(
         "key.originsmp.ability2",
         InputConstants.Type.KEYSYM,
         GLFW.GLFW_KEY_G,
-        "category.originsmp"
+        KeyMapping.Category.MISC
 ));
 
     }
