@@ -11,7 +11,7 @@ public class AbilityHandler {
             while (AbilityKeybinds.ability1.wasPressed()) {
 
                 if (client.player != null) {
-                    client.player.networkHandler.sendChatCommand("ability1");
+                    client.getNetworkHandler().sendChatCommand("ability1");
                 }
 
             }
@@ -19,7 +19,7 @@ public class AbilityHandler {
             while (AbilityKeybinds.ability2.wasPressed()) {
 
                 if (client.player != null) {
-                    client.player.networkHandler.sendChatCommand("ability2");
+                    client.getNetworkHandler().sendChatCommand("ability2");
                 }
 
             }
