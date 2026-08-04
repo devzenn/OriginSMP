@@ -14,14 +14,13 @@
 	"license": "CC0-1.0",
 	"icon": "assets/originsmp/icon.png",
 	"environment": "*",
-"entrypoints": {
-    "main": [
-        "hu.originsmp.mod.OriginSMP"
-    ],
-    "client": [
-        "hu.originsmp.mod.client.OriginSMPClient"
-    ]
-},
+	"entrypoints": {
+		"main": [
+			"hu.originsmp.mod.OriginSMP"
+		],
+		"client": [
+			"hu.originsmp.mod.client.OriginSMPClient"
+		]
 	},
 	"mixins": [
 		"originsmp.mixins.json",
